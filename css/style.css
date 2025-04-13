@@ -1,0 +1,21 @@
+* {
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu {
+
+}
+
+.right-menu {
+    display: flex;
+    
+}
+
+li {
+    list-style: none;
+}
