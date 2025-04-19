@@ -46,3 +46,12 @@ body {
     flex: 1;
     text-align: center;
 }
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_text {
+    width: 100;
+}
