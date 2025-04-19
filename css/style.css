@@ -1,21 +1,30 @@
 * {
     border: 1px solid red;
+    padding: 0px;
+    font-family: sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 0px;
+    background-color: #1F2937;
+
 }
 
 .left-menu {
-    display: flex;
-    padding: 4px;
+    /* display: flex; */
+    padding: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .right-menu {
     display: flex;
-    padding: 4px;
+    align-items: center;
+    padding: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
     
 }
 
@@ -25,7 +34,7 @@ ul {
 }
 
 body {
-    width: 700px;
+    /* width: 700px; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -36,6 +45,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 8px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }   
 
 .about_column_1 {
@@ -54,4 +65,8 @@ body {
 
 .info_text {
     width: 100;
+}
+
+.action {
+    display: flex;
 }
