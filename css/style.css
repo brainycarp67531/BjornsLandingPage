@@ -60,7 +60,14 @@ body {
 
 .information {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
+    font-size: 12px;
+}
+
+.info {
+    width: 120px;
+    text-align: center;
 }
 
 .info_text {
