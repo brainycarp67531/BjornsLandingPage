@@ -80,10 +80,11 @@ ul {
 }
 
 .about_column_1 {
+    display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 24px;
+    gap: 12px;
 }
 
 .about_header {
@@ -97,6 +98,7 @@ ul {
 
 .sign_up_button {
     background-color: #3882F6;
+    color: white;
     padding: 8px 24px;
     /* border: none; */
     border-radius: 8px;
@@ -160,13 +162,10 @@ ul {
 }
 
 .info_text {
-    width: 100;
+    width: 120px;
     text-align: center;
 }
 
-.action {
-    display: flex;
-}
 
 /* Quote */
 
@@ -183,12 +182,12 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding: 0px;
-    width: 900px;
+    width: 570px;
     margin: 50px;
 }
 
 .quote_text {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
@@ -211,11 +210,12 @@ ul {
 
 .action_box{
     display: flex;
-    padding: 20px 70px;
+    padding: 20px 20px;
     border-radius: 8px;
     background-color: #3882F6;
     justify-content: space-evenly;
     gap: 75px;
+    width: 800px;
 }
 
 .call{
@@ -234,6 +234,8 @@ ul {
     width: fit-content;
     cursor: pointer;
     border: white solid 1px;
+    color: white;
+    background-color: #3882F6;
 }
 
 
