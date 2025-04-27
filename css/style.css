@@ -81,6 +81,9 @@ ul {
 
 .about_column_1 {
     flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 24px;
 }
 
 .about_header {
@@ -195,6 +198,42 @@ ul {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+}
+
+/* action */
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    color: white;
+}
+
+.action_box{
+    display: flex;
+    padding: 20px 70px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    gap: 75px;
+}
+
+.call{
+    font-weight: bold;
+}
+
+.action_text{
+    font-size: 12px;
+}
+
+.sign_up_2{
+    align-self: center;
+    padding: 4px 12px;
+    /* border: none; */
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+    border: white solid 1px;
 }
 
 
